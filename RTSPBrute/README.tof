@@ -1,0 +1,13 @@
+Methoder: Aviko
+Recorder: Kevlar
+Created 10/04/2024
+Updated 10/04/2024 
+
+This is the instruction for installing RTSPBrute for operations. 
+
+ARCH
+    -get https://files.pythonhosted.org/packages/f7/8b/abf1ed8d8646601d93c05fe639eb4fcee3ed52c1d9bf2958099fdc431f60/rtspbrute-1.0.4.tar.gz
+    -tar zxvf rtspbrute-1.0.4.tar.gz
+    -cd rtspbrute-1.0.4
+    -sed -e 's/av<9/av/' setup.py > setup1.py
+    -sudo python3 setup1.py install
